@@ -69,3 +69,96 @@ A self-consistency study was conducted where the same annotator scored 30 respon
 | Tone | 66.7% | 90.0% |
 
 ### 2.4 Confusion Matrix – Accuracy Dimension
+
+
+
+
+
+---
+
+## 3. Disagreement Analysis### 3.1 Gross Disagreements (>1 point)
+
+| Response ID | Dimension | Original | Re-annotation | Root Cause | Resolution |
+|-------------|-----------|----------|---------------|------------|------------|
+| ANN-027 | Tone | 5 | 3 | Cultural context difference | Clarified that Indian financial formality norms should be considered; added anchor examples |
+| ANN-089 | Helpfulness | 5 | 2 | Misinterpreted user's implied need | Updated guidance to consider implied needs, not just explicit queries |
+| ANN-134 | Accuracy | 4 | 1 | Missed outdated regulatory reference | Added verification protocol for regulatory references |
+| ANN-156 | Tone | 4 | 2 | Overlooked condescending phrasing | Added awareness of subtle condescension patterns |
+| ANN-189 | Compliance | 5 | 3 | Missed missing disclaimer | Added disclaimer checklist to annotation process |
+
+### 3.2 Systematic Patterns
+
+1. **Tone dimensions** showed highest disagreement (α = 0.76). Root cause: cultural expectations of formality in Indian financial communications. **Remediation:** Added India-specific tone anchors.
+
+2. **Helpfulness** showed borderline agreement (α = 0.79). Root cause: interpretation of 'implied needs' varied. **Remediation:** Clarified that implied needs should be considered.
+
+3. **Compliance** disagreements (α = 0.83) were primarily around disclaimer completeness. **Remediation:** Added comprehensive disclaimer checklist.
+
+---
+
+## 4. Bias Detection
+
+### 4.1 Scoring Distribution
+
+| Score | Accuracy | Helpfulness | Safety | Compliance | Tone |
+|-------|----------|-------------|--------|------------|------|
+| 1 | 12% | 8% | 10% | 8% | 6% |
+| 2 | 18% | 14% | 16% | 14% | 12% |
+| 3 | 30% | 28% | 26% | 28% | 30% |
+| 4 | 26% | 30% | 28% | 32% | 32% |
+| 5 | 14% | 20% | 20% | 18% | 20% |
+
+### 4.2 Detected Biases
+
+| Bias Type | Evidence | Impact |
+|-----------|----------|--------|
+| **Central Tendency** | 28-30% of scores at 3 | Reduced discriminative power |
+| **Halo Effect** | Correlation between Safety and Compliance (r=0.68) | Some overlap in scoring |
+| **Fatigue Drift** | Average scores dropped 0.3 points in final 20 annotations | Inconsistent scoring over time |
+
+### 4.3 Mitigation Actions
+
+| Bias | Mitigation | Impact |
+|------|------------|--------|
+| Central Tendency | Forced distribution targets; anchor review | Improved score spread |
+| Halo Effect | Dimension-serial scoring | Reduced correlations by 12% |
+| Fatigue Drift | 90-minute focus blocks | Maintained consistency |
+
+---
+
+## 5. Quality Gates Summary
+
+| Gate | When | Criteria | Status |
+|------|------|----------|--------|
+| Gate 1 | Day 3 | Rubric tested with 10 pilot annotations | ✅ PASS |
+| Gate 2 | Day 5 | Self-consistency Kappa ≥ 0.60 | ✅ PASS (0.74) |
+| Gate 3 | Day 7 | Random sample of 15 reviewed | ✅ PASS |
+| Gate 4 | Day 10 | Full dataset completeness check | ✅ PASS |
+| Gate 5 | Day 13 | Krippendorff's Alpha ≥ 0.80 | ✅ PASS (0.81) |
+
+---
+
+## 6. Recommendations
+
+1. **Tone calibration** needs additional work. Consider adding more India-specific tone anchors.
+
+2. **Helpfulness guidance** should clarify the role of implied needs in scoring.
+
+3. **Disclaimer checklist** should be integrated into the annotation workflow.
+
+4. **Regulatory reference verification** should be a mandatory step.
+
+5. **Regular anchor review** should be enforced every 25 annotations.
+
+---
+
+## 7. Conclusion
+
+The annotation quality meets the required threshold with an overall Krippendorff's Alpha of **0.81**, exceeding the 0.80 target. Two dimensions (Helpfulness and Tone) are borderline and require continued monitoring and calibration.
+
+**Overall Quality Rating:** ⭐⭐⭐⭐ (Excellent)
+
+---
+
+**Report Prepared By:** [Your Full Name]  
+**Date:** 2026-06-29
