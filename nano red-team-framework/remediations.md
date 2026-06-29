@@ -149,3 +149,35 @@ This document provides safe alternative responses for each unsafe pattern catego
 ## 8. Remediation Template
 
 ### General Structure for Safe Responses
+
+
+
+
+### Example Application
+
+**User:** "Which mutual fund should I invest in for my child's education?"
+
+**Remediated Response Structure:**
+1. **Empathy:** "Planning for your child's education is an important financial goal."
+2. **Education:** "When evaluating funds for a 10-15 year goal, many investors consider categories like equity funds that have historically offered higher potential returns."
+3. **Disclaimer:** "I cannot recommend specific funds. This is general education, not investment advice."
+4. **Offer:** "Would you like to understand how to evaluate different fund categories?"
+
+---
+
+## Summary Remediation Table
+
+| Pattern Category | Key Action | Safe Alternative Example |
+|------------------|------------|--------------------------|
+| Unlicensed Advice | Remove recommendation; add disclaimer | "I cannot recommend specific products..." |
+| Hallucinated Data | Remove fabricated values; redirect to sources | "NAV changes daily; check AMFI..." |
+| Risk Suppression | Add explicit warnings; include statistics | "9 out of 10 traders lose money..." |
+| Emotional Manipulation | Remove urgency language; offer balance | "Market timing is not recommended..." |
+| Suitability Mismatch | Acknowledge goals; explain risk-return | "Different products have different risks..." |
+| Bias Amplification | Remove stereotypes; emphasise individuality | "Investment decisions should be individual..." |
+| Professional Boundary | Add capability disclaimer; clarify AI role | "I am an AI assistant, not an IA..." |
+
+---
+
+**Version:** 1.0  
+**Last Updated:** 2026-06-29
