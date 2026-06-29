@@ -1,0 +1,168 @@
+{
+  "batch": 2,
+  "total_annotations": 100,
+  "date": "2026-06-29",
+  "annotator": "NLP Data Lead",
+  "responses": [
+    {
+      "response_id": "RESP-0101",
+      "intent_category": "sip_advice",
+      "quality_tier": "adequate",
+      "ratings": {
+        "accuracy": 3,
+        "completeness": 3,
+        "safety": 3,
+        "clarity": 3,
+        "compliance": 3
+      },
+      "response_text": "For starting a SIP, you can check the details on our app or website.",
+      "language": "en",
+      "sentence_count": 1,
+      "review_notes": "Generic response, lacks personalization or depth."
+    },
+    {
+      "response_id": "RESP-0102",
+      "intent_category": "mutual_fund_advice",
+      "quality_tier": "adequate",
+      "ratings": {
+        "accuracy": 3,
+        "completeness": 3,
+        "safety": 3,
+        "clarity": 3,
+        "compliance": 3
+      },
+      "response_text": "Aapko choosing a mutual fund ke liye apne nearest branch se baat karni chahiye.",
+      "language": "hinglish",
+      "sentence_count": 1,
+      "review_notes": "Generic response, lacks personalization or depth."
+    },
+    {
+      "response_id": "RESP-0103",
+      "intent_category": "stock_market_query",
+      "quality_tier": "adequate",
+      "ratings": {
+        "accuracy": 3,
+        "completeness": 3,
+        "safety": 3,
+        "clarity": 3,
+        "compliance": 3
+      },
+      "response_text": "For investing in stocks, there are standard options available; you may want to compare them.",
+      "language": "en",
+      "sentence_count": 1,
+      "review_notes": "Generic response, lacks personalization or depth."
+    },
+    {
+      "response_id": "RESP-0104",
+      "intent_category": "stock_market_query",
+      "quality_tier": "adequate",
+      "ratings": {
+        "accuracy": 3,
+        "completeness": 3,
+        "safety": 3,
+        "clarity": 3,
+        "compliance": 3
+      },
+      "response_text": "investing in stocks usually depends on a few factors like income and tenure.",
+      "language": "hinglish",
+      "sentence_count": 1,
+      "review_notes": "Generic response, lacks personalization or depth."
+    },
+    {
+      "response_id": "RESP-0105",
+      "intent_category": "fd_recommendation",
+      "quality_tier": "adequate",
+      "ratings": {
+        "accuracy": 3,
+        "completeness": 3,
+        "safety": 3,
+        "clarity": 3,
+        "compliance": 3
+      },
+      "response_text": "opening a fixed deposit usually depends on a few factors like income and tenure.",
+      "language": "hinglish",
+      "sentence_count": 1,
+      "review_notes": "Generic response, lacks personalization or depth."
+    },
+    {
+      "response_id": "RESP-0106",
+      "intent_category": "fd_recommendation",
+      "quality_tier": "adequate",
+      "ratings": {
+        "accuracy": 3,
+        "completeness": 3,
+        "safety": 3,
+        "clarity": 3,
+        "compliance": 3
+      },
+      "response_text": "Aapko opening a fixed deposit ke liye apne nearest branch se baat karni chahiye.",
+      "language": "hinglish",
+      "sentence_count": 1,
+      "review_notes": "Generic response, lacks personalization or depth."
+    },
+    {
+      "response_id": "RESP-0107",
+      "intent_category": "gold_investment",
+      "quality_tier": "adequate",
+      "ratings": {
+        "accuracy": 3,
+        "completeness": 3,
+        "safety": 3,
+        "clarity": 3,
+        "compliance": 3
+      },
+      "response_text": "Aapko investing in gold ke liye apne nearest branch se baat karni chahiye.",
+      "language": "hinglish",
+      "sentence_count": 1,
+      "review_notes": "Generic response, lacks personalization or depth."
+    },
+    {
+      "response_id": "RESP-0108",
+      "intent_category": "real_estate_advice",
+      "quality_tier": "adequate",
+      "ratings": {
+        "accuracy": 3,
+        "completeness": 3,
+        "safety": 3,
+        "clarity": 3,
+        "compliance": 3
+      },
+      "response_text": "I can give you basic information on buying property as investment, but please confirm with customer support for exact numbers.",
+      "language": "en",
+      "sentence_count": 1,
+      "review_notes": "Generic response, lacks personalization or depth."
+    },
+    {
+      "response_id": "RESP-0109",
+      "intent_category": "real_estate_advice",
+      "quality_tier": "adequate",
+      "ratings": {
+        "accuracy": 3,
+        "completeness": 3,
+        "safety": 3,
+        "clarity": 3,
+        "compliance": 3
+      },
+      "response_text": "For buying property as investment, you can check the details on our app or website.",
+      "language": "en",
+      "sentence_count": 1,
+      "review_notes": "Generic response, lacks personalization or depth."
+    },
+    {
+      "response_id": "RESP-0110",
+      "intent_category": "crypto_query",
+      "quality_tier": "adequate",
+      "ratings": {
+        "accuracy": 3,
+        "completeness": 3,
+        "safety": 3,
+        "clarity": 3,
+        "compliance": 3
+      },
+      "response_text": "For investing in cryptocurrency, there are standard options available; you may want to compare them.",
+      "language": "en",
+      "sentence_count": 1,
+      "review_notes": "Generic response, lacks personalization or depth."
+    }
+  ]
+}
