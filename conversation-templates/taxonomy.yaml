@@ -1,0 +1,298 @@
+# Financial Advisory Intent Taxonomy – FinSage AI
+
+taxonomy:
+  version: "1.0"
+  date: "2026-06-29"
+  total_categories: 32
+  description: "Complete intent taxonomy for financial advisory conversations"
+
+categories:
+  - id: INV
+    name: "Investment Advisory"
+    description: "Core investment guidance across products and strategies"
+    subcategories:
+      - id: INV-001
+        name: "SIP Setup Guidance"
+        description: "Help users set up systematic investment plans"
+        complexity: 3
+        regulatory_sensitivity: Medium
+      - id: INV-002
+        name: "Mutual Fund Selection Education"
+        description: "Educate users on mutual fund categories and selection criteria"
+        complexity: 4
+        regulatory_sensitivity: High
+      - id: INV-003
+        name: "Direct Equity Education"
+        description: "Educate on stock investing principles (not recommendations)"
+        complexity: 5
+        regulatory_sensitivity: High
+      - id: INV-004
+        name: "Portfolio Review"
+        description: "Review and discuss existing portfolio composition"
+        complexity: 4
+        regulatory_sensitivity: High
+
+  - id: RET
+    name: "Retirement Planning"
+    description: "Long-term retirement and pension guidance"
+    subcategories:
+      - id: RET-001
+        name: "NPS Guidance"
+        description: "National Pension System education and comparison"
+        complexity: 4
+        regulatory_sensitivity: Medium
+      - id: RET-002
+        name: "Retirement Corpus Calculation"
+        description: "Help estimate required retirement savings"
+        complexity: 4
+        regulatory_sensitivity: Medium
+      - id: RET-003
+        name: "EPF/PPF Guidance"
+        description: "Employees' Provident Fund and Public Provident Fund education"
+        complexity: 3
+        regulatory_sensitivity: Low
+
+  - id: INS
+    name: "Insurance Advisory"
+    description: "Insurance product guidance and needs assessment"
+    subcategories:
+      - id: INS-001
+        name: "Term Life Insurance Guidance"
+        description: "Term life insurance education and needs assessment"
+        complexity: 3
+        regulatory_sensitivity: High
+      - id: INS-002
+        name: "Health Insurance Guidance"
+        description: "Health insurance product education and selection"
+        complexity: 3
+        regulatory_sensitivity: High
+      - id: INS-003
+        name: "ULIP Education"
+        description: "Unit Linked Insurance Plan education (distinguish insurance vs investment)"
+        complexity: 4
+        regulatory_sensitivity: High
+
+  - id: TAX
+    name: "Tax Planning"
+    description: "Tax-efficient investing strategies"
+    subcategories:
+      - id: TAX-001
+        name: "Section 80C Guidance"
+        description: "Tax-saving investments under Section 80C"
+        complexity: 3
+        regulatory_sensitivity: Medium
+      - id: TAX-002
+        name: "Capital Gains Tax Guidance"
+        description: "LTCG and STCG tax education"
+        complexity: 4
+        regulatory_sensitivity: High
+      - id: TAX-003
+        name: "Tax-Loss Harvesting Guidance"
+        description: "Tax-loss harvesting strategies education"
+        complexity: 4
+        regulatory_sensitivity: High
+
+  - id: EMG
+    name: "Emergency Response"
+    description: "Crisis financial guidance"
+    subcategories:
+      - id: EMG-001
+        name: "Market Crash Guidance"
+        description: "Guidance during market downturns"
+        complexity: 4
+        regulatory_sensitivity: High
+      - id: EMG-002
+        name: "Job Loss/Emergency Guidance"
+        description: "Financial guidance during personal emergencies"
+        complexity: 4
+        regulatory_sensitivity: Medium
+      - id: EMG-003
+        name: "Medical Emergency Guidance"
+        description: "Financial guidance during medical emergencies"
+        complexity: 4
+        regulatory_sensitivity: Medium
+
+  - id: POR
+    name: "Portfolio Management"
+    description: "Ongoing portfolio guidance"
+    subcategories:
+      - id: POR-001
+        name: "Asset Allocation Guidance"
+        description: "Strategic asset allocation education"
+        complexity: 4
+        regulatory_sensitivity: Medium
+      - id: POR-002
+        name: "Rebalancing Guidance"
+        description: "Portfolio rebalancing education"
+        complexity: 4
+        regulatory_sensitivity: Medium
+      - id: POR-003
+        name: "Performance Review"
+        description: "Portfolio performance evaluation education"
+        complexity: 3
+        regulatory_sensitivity: Low
+
+  - id: EDU
+    name: "Financial Education"
+    description: "General financial literacy education"
+    subcategories:
+      - id: EDU-001
+        name: "Financial Literacy Basics"
+        description: "Basic financial concepts education"
+        complexity: 2
+        regulatory_sensitivity: Low
+      - id: EDU-002
+        name: "Product Education"
+        description: "Financial product education"
+        complexity: 2
+        regulatory_sensitivity: Low
+      - id: EDU-003
+        name: "Risk Education"
+        description: "Investment risk education"
+        complexity: 3
+        regulatory_sensitivity: Medium
+
+  - id: ESC
+    name: "Escalation"
+    description: "Issue resolution and complaints"
+    subcategories:
+      - id: ESC-001
+        name: "Complaint Handling"
+        description: "User complaints and grievance handling"
+        complexity: 3
+        regulatory_sensitivity: High
+      - id: ESC-002
+        name: "Regulatory Complaint"
+        description: "Regulatory complaint guidance"
+        complexity: 4
+        regulatory_sensitivity: High
+      - id: ESC-003
+        name: "Human Handoff"
+        description: "Escalation to human advisor"
+        complexity: 3
+        regulatory_sensitivity: Medium
+
+  - id: COM
+    name: "Compliance"
+    description: "Regulatory compliance interactions"
+    subcategories:
+      - id: COM-001
+        name: "Disclaimer Disclosure"
+        description: "Required regulatory disclaimers"
+        complexity: 2
+        regulatory_sensitivity: High
+      - id: COM-002
+        name: "Risk Warning"
+        description: "Investment risk warnings"
+        complexity: 2
+        regulatory_sensitivity: High
+      - id: COM-003
+        name: "Regulatory Disclosure"
+        description: "Regulatory disclosures and information"
+        complexity: 2
+        regulatory_sensitivity: High
+
+  - id: RIS
+    name: "Risk Assessment"
+    description: "User risk profiling and suitability"
+    subcategories:
+      - id: RIS-001
+        name: "Risk Profiling"
+        description: "User risk tolerance assessment"
+        complexity: 3
+        regulatory_sensitivity: High
+      - id: RIS-002
+        name: "Suitability Assessment"
+        description: "Product suitability assessment"
+        complexity: 4
+        regulatory_sensitivity: High
+
+  - id: MUL
+    name: "Multi-Goal Planning"
+    description: "Complex multi-goal financial planning"
+    subcategories:
+      - id: MUL-001
+        name: "Goal Prioritisation"
+        description: "Financial goal prioritisation guidance"
+        complexity: 4
+        regulatory_sensitivity: Medium
+      - id: MUL-002
+        name: "Resource Allocation"
+        description: "Resource allocation across multiple goals"
+        complexity: 4
+        regulatory_sensitivity: Medium
+
+  - id: NRI
+    name: "NRI Advisory"
+    description: "NRI-specific financial guidance"
+    subcategories:
+      - id: NRI-001
+        name: "Repatriation Guidance"
+        description: "Fund repatriation education"
+        complexity: 4
+        regulatory_sensitivity: High
+      - id: NRI-002
+        name: "NRI Investment Guidance"
+        description: "NRI investment options education"
+        complexity: 4
+        regulatory_sensitivity: High
+      - id: NRI-003
+        name: "NRI Tax Guidance"
+        description: "Tax implications for NRI investors"
+        complexity: 5
+        regulatory_sensitivity: High
+
+  - id: SEN
+    name: "Senior Citizen Advisory"
+    description: "Senior-specific financial guidance"
+    subcategories:
+      - id: SEN-001
+        name: "Senior Citizen Savings Guidance"
+        description: "Senior citizen savings scheme education"
+        complexity: 3
+        regulatory_sensitivity: Medium
+      - id: SEN-002
+        name: "Estate Planning Guidance"
+        description: "Estate and succession planning education"
+        complexity: 4
+        regulatory_sensitivity: Medium
+
+  - id: HNI
+    name: "HNI Advisory"
+    description: "High-net-worth individual guidance"
+    subcategories:
+      - id: HNI-001
+        name: "Wealth Management Guidance"
+        description: "Wealth management education for HNIs"
+        complexity: 5
+        regulatory_sensitivity: High
+      - id: HNI-002
+        name: "AIF Guidance"
+        description: "Alternative Investment Fund education"
+        complexity: 5
+        regulatory_sensitivity: High
+      - id: HNI-003
+        name: "Portfolio Optimisation"
+        description: "Advanced portfolio optimisation education"
+        complexity: 5
+        regulatory_sensitivity: High
+
+  - id: GEN
+    name: "General Inquiry"
+    description: "General questions and information requests"
+    subcategories:
+      - id: GEN-001
+        name: "Product Information"
+        description: "General product information requests"
+        complexity: 1
+        regulatory_sensitivity: Low
+      - id: GEN-002
+        name: "Process Inquiry"
+        description: "Process and procedure questions"
+        complexity: 1
+        regulatory_sensitivity: Low
+      - id: GEN-003
+        name: "FAQ"
+        description: "Frequently asked questions"
+        complexity: 1
+        regulatory_sensitivity: Low
