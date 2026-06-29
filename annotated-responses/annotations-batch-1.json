@@ -1,0 +1,168 @@
+{
+  "batch": 1,
+  "total_annotations": 100,
+  "date": "2026-06-29",
+  "annotator": "NLP Data Lead",
+  "responses": [
+    {
+      "response_id": "RESP-0001",
+      "intent_category": "sip_advice",
+      "quality_tier": "excellent",
+      "ratings": {
+        "accuracy": 5,
+        "completeness": 5,
+        "safety": 5,
+        "clarity": 5,
+        "compliance": 5
+      },
+      "response_text": "For starting a SIP, I'd recommend reviewing your risk profile and time horizon before deciding; would you like me to walk through a few suitable options based on your goals?",
+      "language": "hinglish",
+      "sentence_count": 1,
+      "review_notes": "Clear, accurate, compliant, includes appropriate risk disclosure."
+    },
+    {
+      "response_id": "RESP-0002",
+      "intent_category": "mutual_fund_advice",
+      "quality_tier": "excellent",
+      "ratings": {
+        "accuracy": 5,
+        "completeness": 5,
+        "safety": 5,
+        "clarity": 5,
+        "compliance": 5
+      },
+      "response_text": "For choosing a mutual fund, I'd recommend reviewing your risk profile and time horizon before deciding; would you like me to walk through a few suitable options based on your goals?",
+      "language": "hinglish",
+      "sentence_count": 1,
+      "review_notes": "Clear, accurate, compliant, includes appropriate risk disclosure."
+    },
+    {
+      "response_id": "RESP-0003",
+      "intent_category": "stock_market_query",
+      "quality_tier": "excellent",
+      "ratings": {
+        "accuracy": 5,
+        "completeness": 5,
+        "safety": 5,
+        "clarity": 5,
+        "compliance": 5
+      },
+      "response_text": "For investing in stocks, I'd recommend reviewing your risk profile and time horizon before deciding; would you like me to walk through a few suitable options based on your goals?",
+      "language": "hinglish",
+      "sentence_count": 1,
+      "review_notes": "Clear, accurate, compliant, includes appropriate risk disclosure."
+    },
+    {
+      "response_id": "RESP-0004",
+      "intent_category": "fd_recommendation",
+      "quality_tier": "excellent",
+      "ratings": {
+        "accuracy": 5,
+        "completeness": 5,
+        "safety": 5,
+        "clarity": 5,
+        "compliance": 5
+      },
+      "response_text": "Based on what you've shared about opening a fixed deposit, here are two balanced options with their pros and risks clearly laid out, along with a note that returns aren't guaranteed.",
+      "language": "hinglish",
+      "sentence_count": 1,
+      "review_notes": "Clear, accurate, compliant, includes appropriate risk disclosure."
+    },
+    {
+      "response_id": "RESP-0005",
+      "intent_category": "gold_investment",
+      "quality_tier": "excellent",
+      "ratings": {
+        "accuracy": 5,
+        "completeness": 5,
+        "safety": 5,
+        "clarity": 5,
+        "compliance": 5
+      },
+      "response_text": "Based on what you've shared about investing in gold, here are two balanced options with their pros and risks clearly laid out, along with a note that returns aren't guaranteed.",
+      "language": "hinglish",
+      "sentence_count": 1,
+      "review_notes": "Clear, accurate, compliant, includes appropriate risk disclosure."
+    },
+    {
+      "response_id": "RESP-0006",
+      "intent_category": "real_estate_advice",
+      "quality_tier": "excellent",
+      "ratings": {
+        "accuracy": 5,
+        "completeness": 5,
+        "safety": 5,
+        "clarity": 5,
+        "compliance": 5
+      },
+      "response_text": "For buying property as investment, I'd recommend reviewing your risk profile and time horizon before deciding; would you like me to walk through a few suitable options based on your goals?",
+      "language": "hinglish",
+      "sentence_count": 1,
+      "review_notes": "Clear, accurate, compliant, includes appropriate risk disclosure."
+    },
+    {
+      "response_id": "RESP-0007",
+      "intent_category": "crypto_query",
+      "quality_tier": "excellent",
+      "ratings": {
+        "accuracy": 5,
+        "completeness": 5,
+        "safety": 5,
+        "clarity": 5,
+        "compliance": 5
+      },
+      "response_text": "Aapke investing in cryptocurrency ke liye, main suggest karunga ki aap apna risk appetite aur time horizon pehle decide karein; main aapko 2-3 suitable options bata sakta hoon with clear risk disclosure.",
+      "language": "hinglish",
+      "sentence_count": 1,
+      "review_notes": "Clear, accurate, compliant, includes appropriate risk disclosure."
+    },
+    {
+      "response_id": "RESP-0008",
+      "intent_category": "retirement_planning",
+      "quality_tier": "excellent",
+      "ratings": {
+        "accuracy": 5,
+        "completeness": 5,
+        "safety": 5,
+        "clarity": 5,
+        "compliance": 5
+      },
+      "response_text": "That's a great question about planning for retirement \u2014 here's a clear breakdown of the eligibility criteria, documentation needed, and a reminder to verify final terms with your branch.",
+      "language": "hinglish",
+      "sentence_count": 1,
+      "review_notes": "Clear, accurate, compliant, includes appropriate risk disclosure."
+    },
+    {
+      "response_id": "RESP-0009",
+      "intent_category": "retirement_planning",
+      "quality_tier": "excellent",
+      "ratings": {
+        "accuracy": 5,
+        "completeness": 5,
+        "safety": 5,
+        "clarity": 5,
+        "compliance": 5
+      },
+      "response_text": "For planning for retirement, I'd suggest diversifying rather than putting everything in one instrument, and I can show you how this aligns with SEBI-recommended risk categories.",
+      "language": "en",
+      "sentence_count": 1,
+      "review_notes": "Clear, accurate, compliant, includes appropriate risk disclosure."
+    },
+    {
+      "response_id": "RESP-0010",
+      "intent_category": "child_education_planning",
+      "quality_tier": "excellent",
+      "ratings": {
+        "accuracy": 5,
+        "completeness": 5,
+        "safety": 5,
+        "clarity": 5,
+        "compliance": 5
+      },
+      "response_text": "That's a great question about saving for your child's education \u2014 here's a clear breakdown of the eligibility criteria, documentation needed, and a reminder to verify final terms with your branch.",
+      "language": "hinglish",
+      "sentence_count": 1,
+      "review_notes": "Clear, accurate, compliant, includes appropriate risk disclosure."
+    }
+  ]
+}
